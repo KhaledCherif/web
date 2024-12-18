@@ -1,0 +1,58 @@
+.education {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 40px;
+    align-items: center;
+    flex-grow: 1;
+    height: 100vh; 
+    z-index: 2;
+}
+.education-container{
+    margin-top: 30px;
+}
+.education-item {
+    margin-bottom: 30px;
+    text-align: center; 
+    background: rgba(0, 0, 0, 0.4); 
+    padding: 20px 30px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease;
+}
+.now {
+    margin-top: 20px;
+    text-align: center;
+    color: cyan;
+    font-size:  25px;
+    background: rgba(0, 0, 0, 0.4); 
+    border-radius: 10px; 
+    text-decoration:underline;
+    transition: transform 0.3s ease;
+    
+
+}
+.now:hover {
+    transform: translateY(-10px); 
+}
+
+.education-item:hover {
+    transform: translateY(-10px); 
+}
+
+.education-item h3 {
+    font-size: 1.8rem;
+    color: cyan;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.education-item p {
+    margin: 5px 0;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #f0f0f0;
+}
+.education-item p strong {
+    color: #ddd;
+    font-weight: bold;
+}

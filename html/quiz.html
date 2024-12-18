@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khaled Cherif</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/quiz.css" />
+
+    <link rel="icon" type="image/png" href="../assets/icon.png" />
+
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="../assets/intro.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay"></div>
+
+
+    <header class="header">
+        <a href="../index.html" class="logo">
+            <img src="../assets/logo.png" alt="Logo" />
+        </a>
+    </header>
+    
+    <div class="quiz-container">
+
+        <h1>Interactive Quiz</h1>
+        <div id="quiz-box">
+          <div id="question-container"></div>
+    
+          <!-- Grid of answer options -->
+          <div id="answer-grid" class="answer-grid"></div>
+    
+          <button id="next-btn" class="btn">Next</button>
+          <div id="progress-container">
+            <div id="progress-bar"></div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Score Modal -->
+      <div id="score-modal" class="modal">
+        <div class="modal-content">
+          <h2>Quiz Results</h2>
+          <p id="score-feedback"></p>
+          <div id="score-visualization">
+            <h3>Your Score:</h3>
+            <div id="score-display">0%</div>
+          </div>
+          <ul id="correct-answers-list"></ul>
+          <button id="restart-btn" class="btn">Restart Quiz</button>
+        </div>
+      </div>
+     
+
+    <footer>
+        <p>&copy; created by <span>Khaled Cherif</span> all rights reserved</p>
+    </footer>
+
+    <script src="../js/quiz.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 50px;
+    align-items: center;
+    flex-grow: 1;
+    height: 100vh; 
+    z-index: 2;
+}
+
+.home-content {
+    margin-left: 10%;
+    max-width: 600px;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+    color: #fff;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    color: #fff;
+}
+.home-content h3 span {
+    color: #0ef;
+  }
+.home-content p {
+    font-size: 20px;
+    color: white;
+}
+
+.home-card {
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2); 
+}
+
+.card-header .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    border: 8px solid #0ef;
+    box-shadow: 0 0 20px #00000033;
+    margin-bottom: 20px;
+}
+
+.card-body .mail {
+    color: #0ef;
+    font-size: 20px;
+}
+
+.card-body .mail:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.card-body .job {
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+
+.card-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: -5s ease;
+}
+
+.card-social a:hover {
+    background: #0ef;
+    color: black;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+
+.btn-box:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+

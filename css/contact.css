@@ -1,0 +1,98 @@
+/* Contact Form Section */
+.contact-form-section {
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 78px;
+    z-index: 3;
+}
+
+
+/* Form Styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    width: 80%;
+}
+
+/* Form Row for horizontal alignment */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Form Group */
+.form-group {
+    width: 70%; /* Take up half of the available space */
+    text-align: left;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: cyan;
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: cyan;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00bcd4;
+}
+
+/* Error Message Styling */
+.error {
+    color: red;
+    font-size: 0.9rem;
+    display: none; /* Hidden by default */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+        width: 90%;
+    }
+
+    /* Stack the form fields vertically on small screens */
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-group {
+        width: 100%; /* Full width for small screens */
+    }
+}
