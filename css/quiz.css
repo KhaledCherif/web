@@ -30,7 +30,6 @@
     color: #555;
   }
   
-  /* Question Container */
   #question-container {
     font-size: 18px;
     font-weight: bold;
@@ -38,7 +37,6 @@
     color: #fff;
   }
   
-  /* Answer Grid */
   .answer-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -60,7 +58,6 @@
     color: white;
   }
   
-  /* Next Button */
   #next-btn {
     background: rgb(9, 186, 186);
     color: #fff;
@@ -75,7 +72,6 @@
     background: cyan;
   }
   
-  /* Progress Bar */
   #progress-container {
     width: 100%;
     background-color: #ccc;
@@ -91,7 +87,6 @@
     transition: width 0.3s ease;
   }
   
-  /* Modal */
   .modal {
     display: none;
     position: fixed;
@@ -144,7 +139,6 @@
     background: cyan;
   }
   
-  /* Animated Score */
   #score-visualization {
     margin: 20px 0;
     font-size: 18px;

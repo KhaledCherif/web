@@ -37,7 +37,7 @@ const questions = [
     {
       question: "what degree khaled curently studying?",
       options: ["engineering degree", "licence degree", "bachelor degree"],
-      answer: "Mars",
+      answer: "engineering degree",
     },
     {
       question: "what is khaled's favourite movie ?",

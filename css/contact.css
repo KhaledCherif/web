@@ -1,4 +1,3 @@
-/* Contact Form Section */
 .contact-form-section {
     padding: 40px;
     color: #fff;
@@ -8,7 +7,6 @@
 }
 
 
-/* Form Styles */
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -22,7 +20,6 @@
     width: 80%;
 }
 
-/* Form Row for horizontal alignment */
 .form-row {
     display: flex;
     justify-content: space-between;
@@ -30,9 +27,8 @@
     width: 100%;
 }
 
-/* Form Group */
 .form-group {
-    width: 70%; /* Take up half of the available space */
+    width: 70%; 
     text-align: left;
 }
 
@@ -73,26 +69,9 @@ button:hover {
     background-color: #00bcd4;
 }
 
-/* Error Message Styling */
 .error {
     color: red;
     font-size: 0.9rem;
-    display: none; /* Hidden by default */
+    display: none; 
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .contact-form {
-        padding: 20px;
-        width: 90%;
-    }
-
-    /* Stack the form fields vertically on small screens */
-    .form-row {
-        flex-direction: column;
-    }
-
-    .form-group {
-        width: 100%; /* Full width for small screens */
-    }
-}
